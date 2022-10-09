@@ -40,8 +40,11 @@ const Phones = () => {
 
                 <div className='cart'>
                     <Cart cart={cart}></Cart>
-                    <button onClick={()=>chooseOne(cart)} className='choose-btn'>choose one</button> <br />
+                    <div className='btn-sticky'>
+                    <button onClick={()=>chooseOne(cart)} className='choose-btn'>choose one</       button> <br />
                     <button onClick={()=>removeProduct()} className='remove-button'>remove</button>
+                    </div>
+                    
                 </div>
 
             </div>

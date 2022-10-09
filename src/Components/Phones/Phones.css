@@ -46,3 +46,8 @@
     background-color: darkorange;
     color: black;
 }
+
+.btn-sticky{
+    position: sticky;
+    top: 60%;
+}
