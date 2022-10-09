@@ -1,0 +1,74 @@
+[
+    {
+      "img": "https://www.pngitem.com/pimgs/m/283-2838741_samsung-galaxy-s9-plus-hd-png-download.png",
+      "name": "samsung",
+      "price": 20000,
+      "id": 1
+    },
+    {
+      "img": "https://cellc.lk/wp-content/uploads/2021/09/apple-iphone-13-pro-max-.jpg",
+      "name": "iphone",
+      "price": 20000,
+      "id": 2
+    },
+    {
+      "img": "https://cdn.shopify.com/s/files/1/1706/9177/products/iphone-13-pro-blue-Custom-Mac-BD_e51ffd86-d30d-4bcd-bf55-551a6f9984f6.jpg?v=1635848085",
+      "name": "iphone-13-pro",
+      "price": 20000,
+      "id": 3
+    },
+    {
+      "img": "https://digitthau.com/wp-content/uploads/2021/09/Tecno_Spark_7Pro_2-scaled.jpg",
+      "name": "samsung",
+      "price": 20000,
+      "id": 4
+    },
+    {
+      "img": "https://www.gizbot.com/images/2020-06/tecno-spark-power-2_159238839780.jpg",
+      "name": "samsung",
+      "price": 20000,
+      "id": 5
+    },
+    {
+      "img": "https://img.giznext.com/assets/model/36/4676/tecno-mobiles-tecno-spark-7-pro-2-1634140985.jpg",
+      "name": "tecno-spark",
+      "price": 20000,
+      "id": 6
+    },
+    {
+      "img": "http://cdn.shopify.com/s/files/1/0574/7313/8864/products/2_cb04751c-3bcd-42c6-9fcb-7941527904f6_1200x1200.jpg?v=1630491960",
+      "name": "samsung",
+      "price": 20000,
+      "id": 7
+    },
+    {
+      "img": "https://mobilemall.pk/public_html/images/product/product_1631796086iphone-13-pro-max-gold-select.png",
+      "name": "iphone",
+      "price": 20000,
+      "id": 8
+    },
+    {
+      "img": "https://cf.shopee.com.br/file/365b50336f73da097e88b4c6ca88398f",
+      "name": "samsung",
+      "price": 20000,
+      "id": 9
+    },
+    {
+      "img": "https://img.giznext.com/assets/model/36/5679/tecno-mobiles-tecno-spark-7t-6-1634215045.jpg",
+      "name": "tecno",
+      "price": 20000,
+      "id": 10
+    },
+    {
+      "img": "https://www.maxbhi.com/images/thumbnails/1422/1422/detailed/5169/full_body_housing_for_tecno_spark_7t_blue_maxbhi_com_27253.jpg",
+      "name": "samsung",
+      "price": 20000,
+      "id": 11
+    },
+    {
+      "img": "https://www.maxbhi.com/images/thumbnails/928/928/detailed/5103/full_body_housing_for_tecno_spark_7_blue_maxbhi_com_4249.jpg",
+      "name": "samsung",
+      "price": 20000,
+      "id": 12
+    }
+  ]
