@@ -1,7 +1,7 @@
 import React from 'react';
 import './Phone.css'
 const Phone = (props) => {
-
+    const {handleCartData}=props
     const{name,img,price,id}=props.phone
 
     return (
@@ -12,7 +12,7 @@ const Phone = (props) => {
                <p>Id: {id}</p>
                <p>price: {price}</p>
               </div>
-               <button className='btn-cart'>Add to Cart</button>
+               <button onClick={()=>handleCartData(props.phone)} className='btn-cart'>Add to Cart</button>
         </div>
     );
 };

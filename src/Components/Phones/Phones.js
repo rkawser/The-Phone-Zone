@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Phone from '../Phone/Phone';
 import './Phones.css'
 const Phones = () => {
     const[phones,setPhones]=useState([])
     const [cart,setCart]=useState([])
+
     useEffect(()=>{
         fetch('Fake-data.json')
         .then(res=>res.json())
@@ -11,12 +13,23 @@ const Phones = () => {
     },[])
 
    const handleCartData =(product)=>{
-    console.log(product)
+    const newProduct = [product, ...cart]
+    setCart(newProduct)
    }
 
+   const chooseOne =(data)=>{
+       const item = data[Math.floor(Math.random()* data.length)]
+       const addProduct =[]
+       addProduct.push(...addProduct,item)
+       setCart(addProduct)
+   }
+
+   const removeProduct=()=>{
+    setCart([])
+   } 
     return (
         <div>
-            <div className='phones-constainer'>
+            <div className='phones-container'>
             
                 <div className='card-container'>
                     
@@ -26,7 +39,9 @@ const Phones = () => {
                 </div>
 
                 <div className='cart'>
-                    <h2>All Sumary</h2>
+                    <Cart cart={cart}></Cart>
+                    <button onClick={()=>chooseOne(cart)} className='choose-btn'>choose one</button> <br />
+                    <button onClick={()=>removeProduct()} className='remove-button'>remove</button>
                 </div>
 
             </div>
