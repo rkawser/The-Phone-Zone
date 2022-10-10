@@ -13,7 +13,7 @@ const Cart = (props) => {
                         <div className='cart-details'>
                             <small>{index+1}</small>
                             <img src={name.img} alt=""/>
-                            <p>{name.name}</p>
+                            <p >{name.name}</p>
                         </div>
                     )
                 })

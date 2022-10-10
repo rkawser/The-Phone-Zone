@@ -1,8 +1,8 @@
 import React from 'react';
 import './Phone.css'
 const Phone = (props) => {
-    const {handleCartData}=props
-    const{name,img,price,id}=props.phone
+    const {handleCartData,phone}=props
+    const{name,img,price,id}=phone
 
     return (
         <div className='phone-container'>             

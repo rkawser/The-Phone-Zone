@@ -5,7 +5,7 @@ import './Phones.css'
 const Phones = () => {
     const[phones,setPhones]=useState([])
     const [cart,setCart]=useState([])
-
+    const [keys,setKeys]=useState([])
     useEffect(()=>{
         fetch('Fake-data.json')
         .then(res=>res.json())
@@ -13,12 +13,29 @@ const Phones = () => {
     },[])
 
    const handleCartData =(product)=>{
-    const newProduct = [product, ...cart]
-    setCart(newProduct)
+    const{id}= product
+
+if(cart.length <4){
+    if (!keys.includes(id)) {
+        setCart([product, ...cart])
+        setKeys([...keys,id])
+    }else{
+        alert('alreaday add')
+    }
+}else{
+    alert('card is full')
+}
+
+   
+
+    
+    
    }
 
    const chooseOne =(data)=>{
+
        const item = data[Math.floor(Math.random()* data.length)]
+
        const addProduct =[]
        addProduct.push(...addProduct,item)
        setCart(addProduct)
